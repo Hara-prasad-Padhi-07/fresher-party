@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/college/*
+media/gallery/*
+!media/college/.gitkeep
+!media/gallery/.gitkeep
+!media/.gitkeep
+
+# Environment / secrets
+.env
+*.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Coverage / logs
+.coverage
+*.log
